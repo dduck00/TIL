@@ -11,7 +11,9 @@
 	- 하위 호환성 없음
 	- Spring Eco System의 취지와 맞지 않아, Spring Cloud Gateway를 새로 제작
 3. Spring Cloud Gateway 
+
 ![](https://cloud.spring.io/spring-cloud-gateway/reference/html/images/spring_cloud_gateway_diagram.png) 
+
 Spring Cloud Gateway 기본 구조
 
 
