@@ -33,3 +33,6 @@ Spring Cloud Gateway 기본 구조
 ```
 
 다음과 같은 포멧으로 작성 path + predicate 로 적절한 라우팅을 찾고, filter를 거쳐 uri로 라우팅한다.
+
+
+Jackson은 get메소드를 호출해서 작동함
