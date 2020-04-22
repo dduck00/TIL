@@ -36,3 +36,11 @@ Spring Cloud Gateway 기본 구조
 
 
 Jackson은 get메소드를 호출해서 작동함
+
+
+.filters(f -> f.setResponseHeader("X-Frame-Options", "ALLOW-FROM http://localhost:9001/"))
+크롬에서 지원하지 않는것을 확인
+
+STOMP connect를 생성할 때 8080으로 생성할 경우, iframe들이 8080에 묶이는 모양이다. 하지만 실질적으로 통신하는 서버는 9000이기 떄문에 Cross Origin Frame 에러가 발생한 것,,,
+
+따라서 connection을 생성할 때 9000으로 직접 생성하니깐 되더라...
